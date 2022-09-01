@@ -1,0 +1,90 @@
+* {
+    font-family: Arial;
+    font-size: 14px;
+}
+.top-left {
+    margin-top: 0;
+    margin-left: 0;
+}
+.top-right {
+    margin-top: 0;
+    margin-left: 76%;
+}
+.top-left a, .top-right a {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+    margin-right: 8px;
+    font-size: 14px;
+}
+.top-right img {
+    display: inline;
+    margin-right: 10px;
+    opacity: 0.6;
+}
+.top-right button {
+    background-color: #4285f4;
+    color: white;
+    border-color: #4285f4;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    border: none;
+}
+.google-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+.search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 0.5px rgba(128, 128, 128, 0.418) solid;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 15px;
+}
+.search img {
+    margin-left: 94%;
+    margin-top: 1.5%;
+}
+.buttons {
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.buttons button {
+    background-color: rgba(128, 128, 128, 0.178);
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    color: rgb(109, 109, 109);
+}
+.footer {
+    background-color: rgba(128, 128, 128, 0.233);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+}
+.footer a{
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+}
+.BOTTOM-LEFT {
+    float: left;
+}
+.BOTTOM-RIGHT {
+    float: right;
+}
+.BOTTOM-LEFT a, .BOTTOM-RIGHT a {
+    margin-right: 10px;
+    margin-left: 10px;
+}
